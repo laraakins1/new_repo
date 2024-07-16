@@ -1,0 +1,6 @@
+def product_or_sum(a, b):
+    product = a * b
+    if product <= 1000:
+        return product
+    else: 
+        return a + b
